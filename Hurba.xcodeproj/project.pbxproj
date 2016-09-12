@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		F8B5BD081D8618A3007EB3BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5BD071D8618A3007EB3BE /* AppDelegate.swift */; };
 		F8B5BD0B1D8618A3007EB3BE /* Hurba.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8B5BD091D8618A3007EB3BE /* Hurba.xcdatamodeld */; };
-		F8B5BD0D1D8618A3007EB3BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5BD0C1D8618A3007EB3BE /* ViewController.swift */; };
 		F8B5BD101D8618A3007EB3BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B5BD0E1D8618A3007EB3BE /* Main.storyboard */; };
 		F8B5BD121D8618A3007EB3BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B5BD111D8618A3007EB3BE /* Images.xcassets */; };
 		F8B5BD151D8618A3007EB3BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8B5BD131D8618A3007EB3BE /* LaunchScreen.xib */; };
 		F8B5BD211D8618A3007EB3BE /* HurbaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5BD201D8618A3007EB3BE /* HurbaTests.swift */; };
+		F8B5BD2B1D861A53007EB3BE /* RegisterUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5BD2A1D861A53007EB3BE /* RegisterUserViewController.swift */; };
+		F8B5BD2D1D86239C007EB3BE /* LoginUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5BD2C1D86239C007EB3BE /* LoginUserViewController.swift */; };
+		F8B5BD2F1D86241F007EB3BE /* ProtectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5BD2E1D86241F007EB3BE /* ProtectedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +33,15 @@
 		F8B5BD061D8618A3007EB3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8B5BD071D8618A3007EB3BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8B5BD0A1D8618A3007EB3BE /* Hurba.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hurba.xcdatamodel; sourceTree = "<group>"; };
-		F8B5BD0C1D8618A3007EB3BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8B5BD0F1D8618A3007EB3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8B5BD111D8618A3007EB3BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F8B5BD141D8618A3007EB3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F8B5BD1A1D8618A3007EB3BE /* HurbaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HurbaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B5BD1F1D8618A3007EB3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8B5BD201D8618A3007EB3BE /* HurbaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurbaTests.swift; sourceTree = "<group>"; };
+		F8B5BD2A1D861A53007EB3BE /* RegisterUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUserViewController.swift; sourceTree = "<group>"; };
+		F8B5BD2C1D86239C007EB3BE /* LoginUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUserViewController.swift; sourceTree = "<group>"; };
+		F8B5BD2E1D86241F007EB3BE /* ProtectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +83,10 @@
 		F8B5BD041D8618A3007EB3BE /* Hurba */ = {
 			isa = PBXGroup;
 			children = (
-				F8B5BD071D8618A3007EB3BE /* AppDelegate.swift */,
-				F8B5BD0C1D8618A3007EB3BE /* ViewController.swift */,
 				F8B5BD0E1D8618A3007EB3BE /* Main.storyboard */,
-				F8B5BD111D8618A3007EB3BE /* Images.xcassets */,
-				F8B5BD131D8618A3007EB3BE /* LaunchScreen.xib */,
-				F8B5BD091D8618A3007EB3BE /* Hurba.xcdatamodeld */,
+				F8B5BD2E1D86241F007EB3BE /* ProtectedViewController.swift */,
+				F8B5BD2C1D86239C007EB3BE /* LoginUserViewController.swift */,
+				F8B5BD2A1D861A53007EB3BE /* RegisterUserViewController.swift */,
 				F8B5BD051D8618A3007EB3BE /* Supporting Files */,
 			);
 			path = Hurba;
@@ -93,6 +95,10 @@
 		F8B5BD051D8618A3007EB3BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F8B5BD071D8618A3007EB3BE /* AppDelegate.swift */,
+				F8B5BD111D8618A3007EB3BE /* Images.xcassets */,
+				F8B5BD131D8618A3007EB3BE /* LaunchScreen.xib */,
+				F8B5BD091D8618A3007EB3BE /* Hurba.xcdatamodeld */,
 				F8B5BD061D8618A3007EB3BE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -215,9 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8B5BD0D1D8618A3007EB3BE /* ViewController.swift in Sources */,
 				F8B5BD0B1D8618A3007EB3BE /* Hurba.xcdatamodeld in Sources */,
+				F8B5BD2B1D861A53007EB3BE /* RegisterUserViewController.swift in Sources */,
 				F8B5BD081D8618A3007EB3BE /* AppDelegate.swift in Sources */,
+				F8B5BD2F1D86241F007EB3BE /* ProtectedViewController.swift in Sources */,
+				F8B5BD2D1D86239C007EB3BE /* LoginUserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
